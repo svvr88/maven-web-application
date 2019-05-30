@@ -113,7 +113,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>jaguar_cars_snap</name>
-	      <url>http://13.126.211.22:8081/repository/jaguar_cars_snap/<url>
+	      <url>http://13.126.211.22:8081/repository/jaguar_cars_snap/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
