@@ -23,7 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:/13.235.9.196:9000/</sonar.host.url>
+		<sonar.host.url>http:http://13.234.18.124:9000/</sonar.host.url>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -31,18 +31,18 @@
 <repositories>
          <repository>
                 <id>central</id>
-                 <url>http://13.126.211.22:8081/repository/jaguar_cars_repo/</url>
+                 <url>http://52.66.195.92:8081/repository/jaguar_cars_repo/</url>
           </repository>
         <repository>
                 <id>hosted</id>
-                 <url>http://13.126.211.22:8081/repository/jaguar_cars_repo/</url>
+                 <url>http://52.66.195.92:8081/repository/jaguar_cars_repo/</url>
           </repository>
   </repositories>
       
     <pluginRepositories>
         <pluginRepository>
                       <id>central</id>
-                      <url>http://13.126.211.22:8081/repository/jaguar_cars_repo/</url>
+                      <url>http://52.66.195.92:8081/repository/jaguar_cars_repo/</url>
          </pluginRepository>
     </pluginRepositories>
 	
@@ -108,12 +108,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Jaguar_cars_release</name>
-	      <url>http://13.126.211.22:8081/repository/Jaguar_cars_release/</url>
+	      <url>http://52.66.195.92:8081/repository/Jaguar_cars_release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>jaguar_cars_snap</name>
-	      <url>http://13.126.211.22:8081/repository/jaguar_cars_snap/</url>
+	      <url>http://52.66.195.92:8081/repository/jaguar_cars_snap/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
